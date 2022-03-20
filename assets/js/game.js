@@ -34,7 +34,7 @@ let lightColor = (element, number) => {
 
     setTimeout(() => {
         element.classList.remove('selected-color')
-    })
+    }, number - 250)
 }
 //Verifica se a ordem esta correta
 let checkOrder = () => {
